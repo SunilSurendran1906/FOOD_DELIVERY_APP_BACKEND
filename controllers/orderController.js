@@ -6,7 +6,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 //config variables
 const currency = "inr";
 const deliveryCharge = 55;
-const frontend_URL = 'http://localhost:5173';
+const frontend_URL = 'https://tomato-rs.netlify.app';
 
 // Placing User Order for Frontend using stripe
 const placeOrder = async (req, res) => {
